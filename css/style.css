@@ -268,6 +268,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
