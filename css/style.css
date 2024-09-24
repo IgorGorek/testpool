@@ -34,7 +34,7 @@ a {
 ul {
   list-style-type: none;
 }
-header {
+.header {
   border-bottom: 1px solid #E7E9FC;
   display: flex;
 }
@@ -110,6 +110,7 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
 }
 .main-section {
   background: #2E2F42;
@@ -119,6 +120,7 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  padding: 188px 0;
 }
 .main-section-button {
   font-family: "Roboto", sans-serif;
@@ -129,6 +131,11 @@ header {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .main-section-button:hover {
   background-color: #404BBF;
