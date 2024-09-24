@@ -48,7 +48,7 @@ ul {
   gap: 24px;
 }
 .first-li-in-ul{
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-block{
   border-bottom: 1px solid #E7E9FC;
