@@ -1,13 +1,37 @@
+/* deleted standart style for tags */
+h1,h2,h3,h4,h5,h6,p,ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
   color: #434455;
+}
+
+.container{
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img {
+  display: block;
 }
 a {
   text-decoration: none;
 }
 ul {
   list-style-type: none;
+}
+header {
+  border-bottom: 1px solid #E7E9FC;
+}
+.section {
+  padding: 120px 0px 120px 0;
+}
+.portfolio-block{
+  border-bottom: 1px solid #E7E9FC;
 }
 .header-logo-web {
   font-family: "Raleway", sans-serif;
@@ -72,7 +96,6 @@ ul {
 .main-section {
   background: #2E2F42;
   font-size: 0;
-  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
