@@ -1,4 +1,5 @@
 /* deleted standart style for tags */
+
 h1,h2,h3,h4,h5,h6,p,ul {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -9,8 +10,6 @@ body {
   color: #434455;
 }
 
-.container{
-  display: flex;
 }
 .container-defolt{
   margin: 0 auto;
