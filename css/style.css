@@ -8,7 +8,11 @@ body {
   background-color: #FFFFFF;
   color: #434455;
 }
-
+.header-container{
+  display: flex;
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 .container-defolt{
   margin: 0 auto;
