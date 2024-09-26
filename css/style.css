@@ -139,7 +139,7 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
-  display: inline-block;
+  display: block;
 }
 .main-section {
   background: #2E2F42;
