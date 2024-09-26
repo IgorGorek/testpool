@@ -65,7 +65,6 @@ ul {
   flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-block{
-  border-bottom: 1px solid #E7E9FC;
   width: calc((100% - 48px) / 3);
 }
 .portfolio-container{
@@ -114,17 +113,17 @@ ul {
 .address {
   font-style: normal;
   font-size: 0;
+  margin-left: auto;
 }
-.address-item {
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-}
-.address-link {
-  color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 .address-link:hover {
   color: #404bbf
@@ -132,36 +131,28 @@ ul {
 .address-link:focus {
   color: #404bbf 
 }
-.main-section-h {
-
+h1 {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+width: 496px;
+display: block;
+margin: 0 auto;
 }
 .main-section {
   background: #2E2F42;
-  font-size: 0;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   padding: 188px 0;
   text-align: center;
-  text-transform: uppercase;
-  color: var(--second-accent-color);
 }
 .main-section-button {
+  margin-top: 56px;
   border-radius: 4px;
+  border: none;
   width: 169px;
   height: 56px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -297,4 +288,5 @@ color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
