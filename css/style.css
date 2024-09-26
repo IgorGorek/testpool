@@ -151,6 +151,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: var(--second-accent-color);
+  display: inline-block;
 }
 .main-section-button {
   font-family: "Roboto", sans-serif;
