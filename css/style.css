@@ -147,9 +147,10 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #fff;
   padding: 188px 0;
   text-align: center;
+  text-transform: uppercase;
+  color: var(--second-accent-color);
 }
 .main-section-button {
   font-family: "Roboto", sans-serif;
@@ -160,7 +161,7 @@ ul {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   min-width: 169px;
   height: 56px;
   border: none;
