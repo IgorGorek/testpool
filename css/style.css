@@ -133,12 +133,14 @@ ul {
   color: #404bbf 
 }
 .main-section-h {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #fff;
-  max-width: 496px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white);
+max-width: 496px;
 }
 .main-section {
   background: #2E2F42;
@@ -153,19 +155,16 @@ ul {
   color: var(--second-accent-color);
 }
 .main-section-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
-  cursor: pointer;
-  display: inline-block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
   border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 .main-section-button:hover {
   background-color: #404BBF;
