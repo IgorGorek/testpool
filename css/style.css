@@ -149,7 +149,7 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
   padding: 188px 0;
-  display: block;
+  text-align: center;
 }
 .main-section-button {
   font-family: "Roboto", sans-serif;
