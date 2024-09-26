@@ -133,14 +133,13 @@ ul {
   color: #404bbf 
 }
 .main-section-h {
-font-family: var(--font-family);
+font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
-line-height: 107%;
+line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--white);
-max-width: 496px;
+color: #fff;
 }
 .main-section {
   background: #2E2F42;
