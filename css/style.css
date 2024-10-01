@@ -41,9 +41,12 @@ ul {
 }
 .header {
   border-bottom: 1px solid #E7E9FC;
+  width: 1440px;
+  margin: 0 auto;
 }
 .section {
   padding: 120px 0px 120px 0;
+  margin: 0 auto;
 }
 .visually-hidden{
    position: absolute;
@@ -99,6 +102,8 @@ ul {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  position: relative;
+  transition: initial;
 }
 .address-ul{
   display: flex;
@@ -109,6 +114,20 @@ ul {
 }
 .header-menu-link:focus {
   color: #404bbf;
+}
+.active-menu-link{
+  color: #404bbf;
+  position: relative;
+}
+.active-menu-link::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .address {
   font-style: normal;
@@ -124,6 +143,7 @@ ul {
   font-style: normal;
   display: block;
   padding: 24px 0;
+  transition: initial;
 }
 .address-link:hover {
   color: #404bbf
@@ -143,9 +163,18 @@ display: block;
 margin: 0 auto;
 }
 .main-section {
-  background-image: url("./images/people-office 1.jpg");
-  background: rgba(46, 47, 66, 0.7);
-  padding: 188px 0;
+  background-image: linear-gradient(
+    to bottom, 
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleoffice.jpg);
+  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+  height: 600px;
   text-align: center;
 }
 .main-section-button {
@@ -169,6 +198,12 @@ margin: 0 auto;
 }
 .main-section-button:focus {
   background-color: #404BBF;
+}
+.values-ico{
+ width: 264px;
+ height: 112px;
+ border: 1px solid #8E8F99;
+ background-color: CLOUD;
 }
 .main-values-item {
   font-weight: 500;
@@ -262,6 +297,7 @@ margin: 0 auto;
 .footer {
   background-color: #2E2F42;
   padding: 100px 0;
+  margin: 0 auto;
 }
 .footer-logo-web {
   font-family: "Raleway", sans-serif;
